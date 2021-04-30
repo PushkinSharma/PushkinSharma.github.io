@@ -26,6 +26,7 @@ body {
   font-weight: 500;
 }
 
+
 /* SECOND NAVBAR */
 .navbar-brand-2 {
   font-size: 33px;
@@ -56,6 +57,14 @@ body {
   .carousel-item img {
     height: 230px !important;
     width: 300px !important;
+  }
+  .navbar-1 {
+     padding: 0.3% 6%; 
+    margin-bottom: 25px;
+  }
+
+  .nav-item-1 {
+    padding: 8px;
   }
 }
 
