@@ -68,6 +68,30 @@ body {
   .nav-item-1 {
     padding: 8px;
   }
+
+   /* .prod-row-1, .prod-row-2{
+
+   } */
+
+   .sneaker-product-img-1{
+
+   }
+
+
+
+}
+
+
+
+
+@media screen and (max-width:400px) {
+  .product-mobile{
+    text-align: center;
+    padding-left: 0;
+
+
+  }
+
 }
 
  @media screen and  (min-width:769px)  and (max-width:900px){
@@ -75,6 +99,13 @@ body {
     height: 330px !important;
     width: 400px !important;
   }
+  .product-mobile{
+    text-align: center;
+
+  }
+
+
+
 }
 
 @media screen and  (min-width:901px)  and (max-width:1024px){
@@ -194,13 +225,15 @@ img {
 .prod-row-1 {
   /* margin-right: 10px; */
   padding-top: 60px;
-  padding-left: 300px;
+  /* padding-left: 300px;    FOR LOCAL SOURCE */
+   padding-left: 290px;
   /* padding-right: 200px; */
   text-align: center;
 }
 
 .prod-row-2 {
-  margin-left: 290px;
+  /* margin-left: 290px;  FOR LOCAL SOURCE*/
+  margin-left: 280px;
   padding-top: 60px;
 }
 
