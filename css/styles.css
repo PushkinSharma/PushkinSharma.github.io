@@ -2,58 +2,7 @@ body {
   text-align: center;
 }
 
-.first-part {
-  background-color: black;
-  padding: 2%;
-  padding-bottom: 50px;
-}
-
-.navbar-brand-1 {
-  font-size: 33px;
-  font-weight: 800;
-  font-family: 'Zen Dots', cursive;
-}
-
-.navbar-1 {
-  padding: 0.6% 10% 2.3% 10%;
-}
-
-.nav-item-1 {
-  padding: 12px;
-}
-
-.nav-link-1 {
-  font-weight: 500;
-}
-
-
-/* SECOND NAVBAR */
-.navbar-brand-2 {
-  font-size: 33px;
-  font-weight: 800;
-  font-family: 'Zen Dots', cursive;
-}
-
-.navbar-2 {
-  padding: 0.3% 6%;
-  background-color: lightgrey;
-  margin-bottom: 25px;
-}
-
-.nav-item-2 {
-  padding: 8px;
-}
-
-.nav-link-2 {
-  font-weight: 500;
-}
-
-
-
-.carousel-item img {
-  height: 430px !important;
-  width: 800px !important;
-}
+/* MEDIA QUERIES */
 
 @media screen and (max-width:768px){
   .carousel-item img {
@@ -75,7 +24,6 @@ body {
 }
 
 
-
  @media screen and  (min-width:769px)  and (max-width:900px){
   .carousel-item img {
     height: 330px !important;
@@ -85,8 +33,6 @@ body {
     text-align: center;
 
   }
-
-
 
 }
 
@@ -98,15 +44,42 @@ body {
 }
 
 
+/* INDEX PAGE */
 
 
-/* .carousel-inner > .item {
-   height: 400px;
-} */
-/*
-img {
-  height: 100vh;
-}  */
+.first-part {
+  background-color: black;
+  padding: 2%;
+  padding-bottom: 50px;
+}
+
+          /* FIRST NAVBAR */
+
+.navbar-brand-1 {
+  font-size: 33px;
+  font-weight: 800;
+  font-family: 'Zen Dots', cursive;
+}
+
+.navbar-1 {
+  padding: 0.6% 10% 2.3% 10%;
+}
+
+.nav-item-1 {
+  padding: 12px;
+}
+
+.nav-link-1 {
+  font-weight: 500;
+}
+
+       /* CAROUSEL */
+
+.carousel-item img {
+  height: 430px !important;
+  width: 800px !important;
+}
+
 .img-fluid {
   text-align: center;
 }
@@ -115,14 +88,17 @@ img {
   padding-bottom: 20px;
 }
 
-/* #carouselExampleIndicators{
-  padding-bottom: 50px;
-} */
-/* SECOND PART  */
+
+               /* SECOND PART  */
+
+
 .second-part {
   padding: 10.5% 9%;
   color: red;
 }
+
+               /* FEATURES */
+
 
 .features_para:hover {
   color: black;
@@ -132,17 +108,13 @@ img {
   padding-bottom: 10px;
 }
 
+               /* FOOTER */
+
+
 .footer {
   background-color: black;
   padding: 1%;
   color: white;
-}
-
-.footer-2 {
-  background-color: black;
-  padding: 1%;
-  color: white;
-  margin-top: 200px;
 }
 
 .footer_icons {
@@ -151,6 +123,64 @@ img {
   margin-right: 1.5%;
   padding-bottom: 15px;
 }
+
+
+/* PRODUCT PAGE */
+
+
+                /* SECOND NAVBAR (FOR ALL PAGES OTHER THAN INDEX)*/
+
+
+.navbar-brand-2 {
+font-size: 33px;
+font-weight: 800;
+font-family: 'Zen Dots', cursive;
+}
+
+.navbar-2 {
+padding: 0.3% 6%;
+background-color: lightgrey;
+margin-bottom: 25px;
+}
+
+.nav-item-2 {
+padding: 8px;
+}
+
+.nav-link-2 {
+font-weight: 500;
+}
+
+.products-part {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+
+.product-page-heading, .sign_in-page-heading {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.prod-heading {
+  font-size: 4.5rem;
+  font-family: 'Rajdhani';
+  color: red;
+}
+
+.pt2 {
+  background-color: black;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.pt1 {
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+
 
 .sneaker-product-img-1 {
   border-radius: 100%;
@@ -170,39 +200,13 @@ img {
   margin-left: 30px;
 }
 
-.pt2 {
-  background-color: black;
-  color: white;
-  padding-bottom: 100px;
-}
-
-.pt1 {
-  background-color: white;
-  padding-bottom: 100px;
-}
-
-.products-part {
-  /* width: 70%;
-  margin: 65px auto 65px auto; */
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 100px;
-}
-
-.product-page-heading, .sign_in-page-heading {
-  padding-top: 50px;
-  padding-bottom: 25px;
-}
-
-.prod-heading {
-  font-size: 4.5rem;
-  font-family: 'Rajdhani';
-  color: red;
-}
 
 .prod-button {
   text-align: center;
 }
+
+               /* 3 BUTTONS */
+
 
 .prod-row-1 {
   /* margin-right: 10px; */
@@ -224,6 +228,10 @@ img {
   font-family: 'Zen Dots', cursive;
 }
 
+
+                    /* CONTENT FOR SNEAKERS */
+
+
 .sneaker-para-1 {
   padding-left: 10px;
   padding-right: 30px;
@@ -232,12 +240,22 @@ img {
 }
 
 .sneaker-para-2 {
-  /* padding-bottom: 100px; */
   padding-left: 30px;
   padding-right: 10px;
   font-family: 'Montserrat';
   line-height: 2;
 }
+
+.footer-2 {
+  background-color: black;
+  padding: 1%;
+  color: white;
+  margin-top: 200px;
+}
+
+
+/* SIGN-IN PAGE */
+
 
 .form-signin {
   width: 100%;
@@ -285,6 +303,8 @@ img {
   font-family: 'Rajdhani';
   font-size: 3.7rem;
 }
+
+/* CHECKOUT PAGE */
 
 .checkout-body {
   text-align: left;
