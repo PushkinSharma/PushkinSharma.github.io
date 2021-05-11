@@ -18,9 +18,7 @@ body {
     padding: 8px;
   }
 
-   .sneaker-product-img-1{
 
-   }
 }
 
 
@@ -76,12 +74,13 @@ body {
        /* CAROUSEL */
 
 .carousel-item img {
-  height: 430px !important;
-  width: 800px !important;
+  height: 430px ;
+  width: 800px;
 }
 
 .img-fluid {
   text-align: center;
+
 }
 
 .carousel-inner {
