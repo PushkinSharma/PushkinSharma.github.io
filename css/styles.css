@@ -59,6 +59,12 @@ body {
   font-family: 'Zen Dots', cursive;
 }
 
+.navbar-brand-1:hover {
+
+}
+
+
+
 .navbar-1 {
   padding: 0.6% 10% 2.3% 10%;
 }
@@ -121,6 +127,11 @@ body {
   margin-left: 1.5%;
   margin-right: 1.5%;
   padding-bottom: 15px;
+}
+
+.footer_icons:hover{
+  color  : red;
+
 }
 
 
