@@ -1,1 +1,1 @@
-# PushkinSharma.github.io
+# UI template for a Sneaker Store. 
