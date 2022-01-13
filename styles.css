@@ -1,0 +1,330 @@
+body {
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:768px){
+  .carousel-item img {
+    height: 230px !important;
+    width: 300px !important;
+  }
+  .navbar-1 {
+    padding: 0.3% 3%;
+    margin-bottom: 25px;
+  }
+
+  .nav-item-1 {
+    padding: 8px;
+  }
+
+
+}
+
+
+ @media screen and  (min-width:769px)  and (max-width:900px){
+  .carousel-item img {
+    height: 330px !important;
+    width: 400px !important;
+  }
+  .prod-row-1{
+    text-align: center;
+
+  }
+
+}
+
+@media screen and  (min-width:901px)  and (max-width:1024px){
+ .carousel-item img {
+   height: 330px !important;
+   width: 400px !important;
+ }
+}
+
+
+/* INDEX PAGE */
+
+
+.first-part {
+  background-color: black;
+  padding: 2%;
+  padding-bottom: 50px;
+}
+
+          /* FIRST NAVBAR */
+
+.navbar-brand-1 {
+  font-size: 33px;
+  font-weight: 800;
+  font-family: 'Zen Dots', cursive;
+}
+
+.navbar-brand-1:hover {
+
+}
+
+
+
+.navbar-1 {
+  padding: 0.6% 10% 2.3% 10%;
+}
+
+.nav-item-1 {
+  padding: 12px;
+}
+
+.nav-link-1 {
+  font-weight: 500;
+}
+
+       /* CAROUSEL */
+
+.carousel-item img {
+  height: 430px ;
+  width: 800px;
+}
+
+.img-fluid {
+  text-align: center;
+
+}
+
+.carousel-inner {
+  padding-bottom: 20px;
+}
+
+
+               /* SECOND PART  */
+
+
+.second-part {
+  padding: 10.5% 9%;
+  color: red;
+}
+
+               /* FEATURES */
+
+
+.features_para:hover {
+  color: black;
+}
+
+.features_icons {
+  padding-bottom: 10px;
+}
+
+               /* FOOTER */
+
+
+.footer {
+  background-color: black;
+  padding: 1%;
+  color: white;
+}
+
+.footer_icons {
+  margin-top: 2%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  padding-bottom: 15px;
+}
+
+.footer_icons:hover{
+  color  : red;
+
+}
+
+
+/* PRODUCT PAGE */
+
+
+                /* SECOND NAVBAR (FOR ALL PAGES OTHER THAN INDEX)*/
+
+
+.navbar-brand-2 {
+font-size: 33px;
+font-weight: 800;
+font-family: 'Zen Dots', cursive;
+}
+
+.navbar-2 {
+padding: 0.3% 6%;
+background-color: lightgrey;
+margin-bottom: 25px;
+}
+
+.nav-item-2 {
+padding: 8px;
+}
+
+.nav-link-2 {
+font-weight: 500;
+}
+
+.products-part {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+
+.product-page-heading, .sign_in-page-heading {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.prod-heading {
+  font-size: 4.5rem;
+  font-family: 'Rajdhani';
+  color: red;
+}
+
+.pt2 {
+  background-color: black;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.pt1 {
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+
+
+.sneaker-product-img-1 {
+  border-radius: 100%;
+  width: 240px;
+  height: 220px;
+  float: left;
+  margin-left: 100px;
+  margin-right: 30px;
+}
+
+.sneaker-product-img-2 {
+  border-radius: 100%;
+  width: 240px;
+  height: 220px;
+  float: right;
+  margin-right: 100px;
+  margin-left: 30px;
+}
+
+
+.prod-button {
+  text-align: center;
+}
+
+               /* 3 BUTTONS */
+
+
+.prod-row-1 {
+  /* margin-right: 10px; */
+  padding-top: 60px;
+  /* padding-left: 300px;    FOR LOCAL SOURCE */
+   padding-left: 300px;
+  /* padding-right: 200px; */
+  text-align: center;
+}
+
+.prod-row-2 {
+  /* margin-left: 290px;  FOR LOCAL SOURCE*/
+  margin-left: 290px;
+  padding-top: 60px;
+}
+
+.sneaker-heading {
+  padding-top: 50px;
+  font-family: 'Zen Dots', cursive;
+}
+
+
+                    /* CONTENT FOR SNEAKERS */
+
+
+.sneaker-para-1 {
+  padding-left: 10px;
+  padding-right: 30px;
+  font-family: 'Montserrat';
+  line-height: 2;
+}
+
+.sneaker-para-2 {
+  padding-left: 30px;
+  padding-right: 10px;
+  font-family: 'Montserrat';
+  line-height: 2;
+}
+
+.footer-2 {
+  background-color: black;
+  padding: 1%;
+  color: white;
+  margin-top: 200px;
+}
+
+
+/* SIGN-IN PAGE */
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+  font-family: 'Montserrat';
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Montserrat';
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.sign-in-para {
+  font-family: 'Montserrat';
+  color: white;
+}
+
+.sign_in-heading {
+  font-family: 'Rajdhani';
+  font-size: 3.7rem;
+}
+
+/* CHECKOUT PAGE */
+
+.checkout-body {
+  text-align: left;
+}
+
+.center {
+  margin: auto;
+  font-family: 'Montserrat';
+}
+
+.checkout-heading {
+  font-family: 'Rajdhani';
+}
