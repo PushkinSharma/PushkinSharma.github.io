@@ -1,1 +1,1 @@
-# UI template for a Sneaker Store. 
+# Front-end proposal for a Sneaker Store. 
