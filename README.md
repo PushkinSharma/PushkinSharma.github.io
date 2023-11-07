@@ -1,1 +1,1 @@
-# Front-end proposal for a Sneaker Store. 
+# Landing Page for a Sneaker Store. 
